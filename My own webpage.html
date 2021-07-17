@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="CSS for my webpage.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My webpage</title>
+</head>
+<body>
+    <script src="Javascript html.js"></script>
+    <header>
+        <img onmouseover='showcontactInfo()' onmouseout='hidecontactInfo()' src='Profile.jpg' alt="Profile picture"> <!--This is what line im having issue with i think?-->
+        <h1>My Webpage</h1>
+        <p>Welcome to my webpage where you can learn about me!</p>
+</header>
+<div id='main'>
+    <ul id='navlist'>
+        <li onclick='displayInfo(0)'>Bio</li>
+        <li onclick='displayInfo(1)'>Education</li>
+        <li onclick='displayInfo(2)'>Work</li>
+        <li onclick='displayInfo(3)'>Projects</li>
+        <li onclick='displayInfo(4)'>Interests</li>
+    </ul>
+    <div id='infoContainer'>
+        <div id='bioDiv' class='infoDivs'>
+            <h2>Bio</h2>
+            <p>Here is a little about myself and my background.</p>
+        </div>
+        <div id='educationDiv' class='infoDivs'>
+            <h2>Education</h2>
+            <p>Here is some info about my schooling and courses that I've taken.</p>
+            </div>
+        <div id='workDiv' class='infoDivs'>
+            <h2>Work</h2>
+             <p>Here is info about my recent jobs I've had.</p>
+        </div>
+        <div id='projectsDiv' class='infoDivs'>
+            <h2>Projects</h2>
+            <p>Here is info about the recent projects I've been working on.</p>
+        </div>
+        <div id='interestsDiv' class='infoDivs'>
+            <h2>Interests</h2>
+            <p>Here is some info about some of the things that I like to do in my free time.</p>
+        </div>
+    </div>
+</div>
+<div id='contactInfo'> <!-- This is what I want to show my info when you put your mouse over my picture-->
+    <p>Anthony Borgstrom</p>
+    <p>a.borgstrom815@gmail.com</p>
+    <p>763 516 5489</p>
+</div>
+</body>
+</html>
