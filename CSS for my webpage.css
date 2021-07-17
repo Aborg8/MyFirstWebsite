@@ -1,0 +1,129 @@
+html, body  {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: "verdana";
+}
+
+body {
+    background-image: url('https://imgur.com/GfUxQA7.jpg');
+    padding: 10px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    margin: 0px;
+    font-size: 30px;
+}
+
+header {
+    margin: 20px;
+    height: 20%;
+}
+
+header img {
+    position: absolute;
+    right: 20px;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 2px;
+}
+
+header p {
+    margin-top: 50px;
+}
+
+#main {
+    position: relative;
+    height: 70%;
+}
+
+#navlist {
+    list-style: none;
+    display: inline-block;
+    height: 100%;
+    padding: 0px;
+    margin: 20px;
+    width: 25%;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+#navlist li {
+    height: 18%;
+}
+
+#navlist li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#infoContainer {
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    bottom: 20px;
+    right: 10%;
+    left: 25%;
+    height: 90%;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.infoDivs {
+    display: none;
+    margin: 20px;
+}
+
+.infoDivs h2 {
+    margin-bottom: 40px;
+}
+
+#bioDiv {
+    display: block;
+}
+
+#contactInfo {
+    background-color: white;
+    display: none;
+    position: fixed;
+    width: 50%;
+    left: 25%;
+    top: 30%
+    color: black;
+    text-align: center;
+    font-size: 3vw;
+}
+
+@media (max-width: 500px) {
+
+    #navList {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    #infoContainer {
+        margin-left: 10px;
+    }
+}
+
+    @media (max-width: 400px) {
+        
+        h1 {
+            font-size: 30px;
+        }
+
+        header img {
+            width: 50px;
+            right: 5px;
+        }
+
+        #navList {
+            font-size: 12px;
+        }
+    }
