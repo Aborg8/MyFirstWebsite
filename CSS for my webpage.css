@@ -7,6 +7,24 @@ html, body  {
     font-family: "verdana";
 }
 
+a:link {
+    color: salmon;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color:yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 body {
     background-image: url('https://imgur.com/GfUxQA7.jpg');
     padding: 10px;
@@ -94,7 +112,7 @@ header p {
     position: fixed;
     width: 50%;
     left: 25%;
-    top: 30%
+    top: 30%;
     color: black;
     text-align: center;
     font-size: 3vw;
